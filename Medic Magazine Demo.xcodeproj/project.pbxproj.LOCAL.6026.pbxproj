@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E4B0B1A15FFC3E300C28904 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E4B0B1915FFC3E300C28904 /* UIKit.framework */; };
+		7E4B0B1C15FFC3E300C28904 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E4B0B1B15FFC3E300C28904 /* Foundation.framework */; };
+		7E4B0B1E15FFC3E300C28904 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E4B0B1D15FFC3E300C28904 /* CoreGraphics.framework */; };
+		7E4B0B2415FFC3E300C28904 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E4B0B2215FFC3E300C28904 /* InfoPlist.strings */; };
+		7E4B0B2615FFC3E300C28904 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B0B2515FFC3E300C28904 /* main.m */; };
+		7E4B0B2A15FFC3E300C28904 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B0B2915FFC3E300C28904 /* AppDelegate.m */; };
+		7E4B0C0215FFC72100C28904 /* BackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E4B0BD115FFC72100C28904 /* BackButton.png */; };
+		7E4B0C0415FFC72100C28904 /* KGBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B0BDA15FFC72100C28904 /* KGBrowserViewController.m */; };
+		7E4B0C0515FFC72100C28904 /* KGCappedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B0BDD15FFC72100C28904 /* KGCappedScrollView.m */; };
+		7E4B0C0615FFC72100C28904 /* KGDiskImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B0BE015FFC72100C28904 /* KGDiskImageStore.m */; };
+		7E4B0C0715FFC72100C28904 /* KGHTMLManifest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B0BE515FFC72100C28904 /* KGHTMLManifest.m */; };
+		7E4B0C0815FFC72100C28904 /* KGHTMLManifestDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B0BE715FFC72100C28904 /* KGHTMLManifestDataSource.m */; };
+		7E4B0C0915FFC72100C28904 /* KGInMemoryImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B0BE915FFC72100C28904 /* KGInMemoryImageStore.m */; };
+		7E4B0C0A15FFC72100C28904 /* KGLocalFileDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B0BEB15FFC72100C28904 /* KGLocalFileDataSource.m */; };
+		7E4B0C0B15FFC72100C28904 /* KGPagedDocControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B0BEE15FFC72100C28904 /* KGPagedDocControl.m */; };
+		7E4B0C0C15FFC72100C28904 /* KGPagedDocControlImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B0BF115FFC72100C28904 /* KGPagedDocControlImplementation.m */; };
+		7E4B0C0D15FFC72100C28904 /* KGPagedDocThumbnailContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B0BF415FFC72100C28904 /* KGPagedDocThumbnailContentView.m */; };
+		7E4B0C0E15FFC72100C28904 /* KGPagedDocThumbnailControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B0BF615FFC72100C28904 /* KGPagedDocThumbnailControl.m */; };
+		7E4B0C0F15FFC72100C28904 /* KGPagedDocThumbnailControlImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B0BF815FFC72100C28904 /* KGPagedDocThumbnailControlImplementation.m */; };
+		7E4B0C1015FFC72100C28904 /* KGSinglePanePartitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B0BFA15FFC72100C28904 /* KGSinglePanePartitioning.m */; };
+		7E4B0C1115FFC72100C28904 /* KGStartupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B0BFC15FFC72100C28904 /* KGStartupView.m */; };
+		7E4B0C1215FFC72100C28904 /* UIView+KGAnimatedHide.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B0BFF15FFC72100C28904 /* UIView+KGAnimatedHide.m */; };
+		7E4B0C1315FFC72100C28904 /* UIWebView+KGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B0C0115FFC72100C28904 /* UIWebView+KGAdditions.m */; };
+		7E4B0C1B15FFC84E00C28904 /* MasterControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B0C1A15FFC84E00C28904 /* MasterControl.m */; };
+		7EFDFBEF1601286700364E27 /* SampleMagazineView-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EFDFBEB1601286700364E27 /* SampleMagazineView-iPad.xib */; };
+		7EFDFBF01601286700364E27 /* SampleMagazineView-iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EFDFBEC1601286700364E27 /* SampleMagazineView-iPhone.xib */; };
+		7EFDFBF11601286700364E27 /* SampleMagazineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFDFBEE1601286700364E27 /* SampleMagazineViewController.m */; };
+		7EFDFC22160129FA00364E27 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 7EFDFC21160129FA00364E27 /* Data */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E4B0B1515FFC3E300C28904 /* SampleMagazine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleMagazine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4B0B1915FFC3E300C28904 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7E4B0B1B15FFC3E300C28904 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7E4B0B1D15FFC3E300C28904 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7E4B0B2115FFC3E300C28904 /* SampleMagazine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleMagazine-Info.plist"; sourceTree = "<group>"; };
+		7E4B0B2315FFC3E300C28904 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E4B0B2515FFC3E300C28904 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E4B0B2715FFC3E300C28904 /* SampleMagazine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleMagazine-Prefix.pch"; sourceTree = "<group>"; };
+		7E4B0B2815FFC3E300C28904 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E4B0B2915FFC3E300C28904 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E4B0BD115FFC72100C28904 /* BackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BackButton.png; path = SampleMagazine/BackButton.png; sourceTree = "<group>"; };
+		7E4B0BD215FFC72100C28904 /* BackButton.png.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackButton.png.h; path = SampleMagazine/BackButton.png.h; sourceTree = "<group>"; };
+		7E4B0BD315FFC72100C28904 /* BrowserButton.png.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BrowserButton.png.h; path = SampleMagazine/BrowserButton.png.h; sourceTree = "<group>"; };
+		7E4B0BD715FFC72100C28904 /* ForwardButton.png.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForwardButton.png.h; path = SampleMagazine/ForwardButton.png.h; sourceTree = "<group>"; };
+		7E4B0BD815FFC72100C28904 /* KGAnimationStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGAnimationStyle.h; path = SampleMagazine/KGAnimationStyle.h; sourceTree = "<group>"; };
+		7E4B0BD915FFC72100C28904 /* KGBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGBrowserViewController.h; path = SampleMagazine/KGBrowserViewController.h; sourceTree = "<group>"; };
+		7E4B0BDA15FFC72100C28904 /* KGBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KGBrowserViewController.m; path = SampleMagazine/KGBrowserViewController.m; sourceTree = "<group>"; };
+		7E4B0BDB15FFC72100C28904 /* KGBrowserViewController+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "KGBrowserViewController+Internal.h"; path = "SampleMagazine/KGBrowserViewController+Internal.h"; sourceTree = "<group>"; };
+		7E4B0BDC15FFC72100C28904 /* KGCappedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGCappedScrollView.h; path = SampleMagazine/KGCappedScrollView.h; sourceTree = "<group>"; };
+		7E4B0BDD15FFC72100C28904 /* KGCappedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KGCappedScrollView.m; path = SampleMagazine/KGCappedScrollView.m; sourceTree = "<group>"; };
+		7E4B0BDE15FFC72100C28904 /* KGControlEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGControlEvents.h; path = SampleMagazine/KGControlEvents.h; sourceTree = "<group>"; };
+		7E4B0BDF15FFC72100C28904 /* KGDiskImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGDiskImageStore.h; path = SampleMagazine/KGDiskImageStore.h; sourceTree = "<group>"; };
+		7E4B0BE015FFC72100C28904 /* KGDiskImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KGDiskImageStore.m; path = SampleMagazine/KGDiskImageStore.m; sourceTree = "<group>"; };
+		7E4B0BE115FFC72100C28904 /* KGDocumentDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGDocumentDataSource.h; path = SampleMagazine/KGDocumentDataSource.h; sourceTree = "<group>"; };
+		7E4B0BE215FFC72100C28904 /* KGDocumentImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGDocumentImageStore.h; path = SampleMagazine/KGDocumentImageStore.h; sourceTree = "<group>"; };
+		7E4B0BE315FFC72100C28904 /* KGDocumentPaneManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGDocumentPaneManagement.h; path = SampleMagazine/KGDocumentPaneManagement.h; sourceTree = "<group>"; };
+		7E4B0BE415FFC72100C28904 /* KGHTMLManifest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGHTMLManifest.h; path = SampleMagazine/KGHTMLManifest.h; sourceTree = "<group>"; };
+		7E4B0BE515FFC72100C28904 /* KGHTMLManifest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KGHTMLManifest.m; path = SampleMagazine/KGHTMLManifest.m; sourceTree = "<group>"; };
+		7E4B0BE615FFC72100C28904 /* KGHTMLManifestDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGHTMLManifestDataSource.h; path = SampleMagazine/KGHTMLManifestDataSource.h; sourceTree = "<group>"; };
+		7E4B0BE715FFC72100C28904 /* KGHTMLManifestDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KGHTMLManifestDataSource.m; path = SampleMagazine/KGHTMLManifestDataSource.m; sourceTree = "<group>"; };
+		7E4B0BE815FFC72100C28904 /* KGInMemoryImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGInMemoryImageStore.h; path = SampleMagazine/KGInMemoryImageStore.h; sourceTree = "<group>"; };
+		7E4B0BE915FFC72100C28904 /* KGInMemoryImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KGInMemoryImageStore.m; path = SampleMagazine/KGInMemoryImageStore.m; sourceTree = "<group>"; };
+		7E4B0BEA15FFC72100C28904 /* KGLocalFileDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGLocalFileDataSource.h; path = SampleMagazine/KGLocalFileDataSource.h; sourceTree = "<group>"; };
+		7E4B0BEB15FFC72100C28904 /* KGLocalFileDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KGLocalFileDataSource.m; path = SampleMagazine/KGLocalFileDataSource.m; sourceTree = "<group>"; };
+		7E4B0BEC15FFC72100C28904 /* KGOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGOrientation.h; path = SampleMagazine/KGOrientation.h; sourceTree = "<group>"; };
+		7E4B0BED15FFC72100C28904 /* KGPagedDocControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGPagedDocControl.h; path = SampleMagazine/KGPagedDocControl.h; sourceTree = "<group>"; };
+		7E4B0BEE15FFC72100C28904 /* KGPagedDocControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KGPagedDocControl.m; path = SampleMagazine/KGPagedDocControl.m; sourceTree = "<group>"; };
+		7E4B0BEF15FFC72100C28904 /* KGPagedDocControlDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGPagedDocControlDelegate.h; path = SampleMagazine/KGPagedDocControlDelegate.h; sourceTree = "<group>"; };
+		7E4B0BF015FFC72100C28904 /* KGPagedDocControlImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGPagedDocControlImplementation.h; path = SampleMagazine/KGPagedDocControlImplementation.h; sourceTree = "<group>"; };
+		7E4B0BF115FFC72100C28904 /* KGPagedDocControlImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KGPagedDocControlImplementation.m; path = SampleMagazine/KGPagedDocControlImplementation.m; sourceTree = "<group>"; };
+		7E4B0BF215FFC72100C28904 /* KGPagedDocControlNavigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGPagedDocControlNavigator.h; path = SampleMagazine/KGPagedDocControlNavigator.h; sourceTree = "<group>"; };
+		7E4B0BF315FFC72100C28904 /* KGPagedDocThumbnailContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGPagedDocThumbnailContentView.h; path = SampleMagazine/KGPagedDocThumbnailContentView.h; sourceTree = "<group>"; };
+		7E4B0BF415FFC72100C28904 /* KGPagedDocThumbnailContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KGPagedDocThumbnailContentView.m; path = SampleMagazine/KGPagedDocThumbnailContentView.m; sourceTree = "<group>"; };
+		7E4B0BF515FFC72100C28904 /* KGPagedDocThumbnailControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGPagedDocThumbnailControl.h; path = SampleMagazine/KGPagedDocThumbnailControl.h; sourceTree = "<group>"; };
+		7E4B0BF615FFC72100C28904 /* KGPagedDocThumbnailControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KGPagedDocThumbnailControl.m; path = SampleMagazine/KGPagedDocThumbnailControl.m; sourceTree = "<group>"; };
+		7E4B0BF715FFC72100C28904 /* KGPagedDocThumbnailControlImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGPagedDocThumbnailControlImplementation.h; path = SampleMagazine/KGPagedDocThumbnailControlImplementation.h; sourceTree = "<group>"; };
+		7E4B0BF815FFC72100C28904 /* KGPagedDocThumbnailControlImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KGPagedDocThumbnailControlImplementation.m; path = SampleMagazine/KGPagedDocThumbnailControlImplementation.m; sourceTree = "<group>"; };
+		7E4B0BF915FFC72100C28904 /* KGSinglePanePartitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGSinglePanePartitioning.h; path = SampleMagazine/KGSinglePanePartitioning.h; sourceTree = "<group>"; };
+		7E4B0BFA15FFC72100C28904 /* KGSinglePanePartitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KGSinglePanePartitioning.m; path = SampleMagazine/KGSinglePanePartitioning.m; sourceTree = "<group>"; };
+		7E4B0BFB15FFC72100C28904 /* KGStartupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGStartupView.h; path = SampleMagazine/KGStartupView.h; sourceTree = "<group>"; };
+		7E4B0BFC15FFC72100C28904 /* KGStartupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KGStartupView.m; path = SampleMagazine/KGStartupView.m; sourceTree = "<group>"; };
+		7E4B0BFD15FFC72100C28904 /* Pugpig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pugpig.h; path = SampleMagazine/Pugpig.h; sourceTree = "<group>"; };
+		7E4B0BFE15FFC72100C28904 /* UIView+KGAnimatedHide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+KGAnimatedHide.h"; path = "SampleMagazine/UIView+KGAnimatedHide.h"; sourceTree = "<group>"; };
+		7E4B0BFF15FFC72100C28904 /* UIView+KGAnimatedHide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+KGAnimatedHide.m"; path = "SampleMagazine/UIView+KGAnimatedHide.m"; sourceTree = "<group>"; };
+		7E4B0C0015FFC72100C28904 /* UIWebView+KGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIWebView+KGAdditions.h"; path = "SampleMagazine/UIWebView+KGAdditions.h"; sourceTree = "<group>"; };
+		7E4B0C0115FFC72100C28904 /* UIWebView+KGAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+KGAdditions.m"; path = "SampleMagazine/UIWebView+KGAdditions.m"; sourceTree = "<group>"; };
+		7E4B0C1815FFC83000C28904 /* IMagazineController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMagazineController.h; sourceTree = "<group>"; };
+		7E4B0C1915FFC84E00C28904 /* MasterControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterControl.h; sourceTree = "<group>"; };
+		7E4B0C1A15FFC84E00C28904 /* MasterControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterControl.m; sourceTree = "<group>"; };
+		7EFDFBEB1601286700364E27 /* SampleMagazineView-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SampleMagazineView-iPad.xib"; sourceTree = "<group>"; };
+		7EFDFBEC1601286700364E27 /* SampleMagazineView-iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SampleMagazineView-iPhone.xib"; sourceTree = "<group>"; };
+		7EFDFBED1601286700364E27 /* SampleMagazineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleMagazineViewController.h; sourceTree = "<group>"; };
+		7EFDFBEE1601286700364E27 /* SampleMagazineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleMagazineViewController.m; sourceTree = "<group>"; };
+		7EFDFC21160129FA00364E27 /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E4B0B1215FFC3E300C28904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4B0B1A15FFC3E300C28904 /* UIKit.framework in Frameworks */,
+				7E4B0B1C15FFC3E300C28904 /* Foundation.framework in Frameworks */,
+				7E4B0B1E15FFC3E300C28904 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E4B0B0A15FFC3E300C28904 = {
+			isa = PBXGroup;
+			children = (
+				7EFDFC21160129FA00364E27 /* Data */,
+				7E4B0B3315FFC40B00C28904 /* Pugpig */,
+				7E4B0B1F15FFC3E300C28904 /* SampleMagazine */,
+				7E4B0B1815FFC3E300C28904 /* Frameworks */,
+				7E4B0B1615FFC3E300C28904 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E4B0B1615FFC3E300C28904 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E4B0B1515FFC3E300C28904 /* SampleMagazine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E4B0B1815FFC3E300C28904 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E4B0B1915FFC3E300C28904 /* UIKit.framework */,
+				7E4B0B1B15FFC3E300C28904 /* Foundation.framework */,
+				7E4B0B1D15FFC3E300C28904 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E4B0B1F15FFC3E300C28904 /* SampleMagazine */ = {
+			isa = PBXGroup;
+			children = (
+				7E4B0B6915FFC48700C28904 /* Classes */,
+				7E4B0B2815FFC3E300C28904 /* AppDelegate.h */,
+				7E4B0B2915FFC3E300C28904 /* AppDelegate.m */,
+				7E4B0B2015FFC3E300C28904 /* Supporting Files */,
+			);
+			path = SampleMagazine;
+			sourceTree = "<group>";
+		};
+		7E4B0B2015FFC3E300C28904 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E4B0B2115FFC3E300C28904 /* SampleMagazine-Info.plist */,
+				7E4B0B2215FFC3E300C28904 /* InfoPlist.strings */,
+				7E4B0B2515FFC3E300C28904 /* main.m */,
+				7E4B0B2715FFC3E300C28904 /* SampleMagazine-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E4B0B3315FFC40B00C28904 /* Pugpig */ = {
+			isa = PBXGroup;
+			children = (
+				7E4B0BD115FFC72100C28904 /* BackButton.png */,
+				7E4B0BD215FFC72100C28904 /* BackButton.png.h */,
+				7E4B0BD315FFC72100C28904 /* BrowserButton.png.h */,
+				7E4B0BD715FFC72100C28904 /* ForwardButton.png.h */,
+				7E4B0BD815FFC72100C28904 /* KGAnimationStyle.h */,
+				7E4B0BD915FFC72100C28904 /* KGBrowserViewController.h */,
+				7E4B0BDA15FFC72100C28904 /* KGBrowserViewController.m */,
+				7E4B0BDB15FFC72100C28904 /* KGBrowserViewController+Internal.h */,
+				7E4B0BDC15FFC72100C28904 /* KGCappedScrollView.h */,
+				7E4B0BDD15FFC72100C28904 /* KGCappedScrollView.m */,
+				7E4B0BDE15FFC72100C28904 /* KGControlEvents.h */,
+				7E4B0BDF15FFC72100C28904 /* KGDiskImageStore.h */,
+				7E4B0BE015FFC72100C28904 /* KGDiskImageStore.m */,
+				7E4B0BE115FFC72100C28904 /* KGDocumentDataSource.h */,
+				7E4B0BE215FFC72100C28904 /* KGDocumentImageStore.h */,
+				7E4B0BE315FFC72100C28904 /* KGDocumentPaneManagement.h */,
+				7E4B0BE415FFC72100C28904 /* KGHTMLManifest.h */,
+				7E4B0BE515FFC72100C28904 /* KGHTMLManifest.m */,
+				7E4B0BE615FFC72100C28904 /* KGHTMLManifestDataSource.h */,
+				7E4B0BE715FFC72100C28904 /* KGHTMLManifestDataSource.m */,
+				7E4B0BE815FFC72100C28904 /* KGInMemoryImageStore.h */,
+				7E4B0BE915FFC72100C28904 /* KGInMemoryImageStore.m */,
+				7E4B0BEA15FFC72100C28904 /* KGLocalFileDataSource.h */,
+				7E4B0BEB15FFC72100C28904 /* KGLocalFileDataSource.m */,
+				7E4B0BEC15FFC72100C28904 /* KGOrientation.h */,
+				7E4B0BED15FFC72100C28904 /* KGPagedDocControl.h */,
+				7E4B0BEE15FFC72100C28904 /* KGPagedDocControl.m */,
+				7E4B0BEF15FFC72100C28904 /* KGPagedDocControlDelegate.h */,
+				7E4B0BF015FFC72100C28904 /* KGPagedDocControlImplementation.h */,
+				7E4B0BF115FFC72100C28904 /* KGPagedDocControlImplementation.m */,
+				7E4B0BF215FFC72100C28904 /* KGPagedDocControlNavigator.h */,
+				7E4B0BF315FFC72100C28904 /* KGPagedDocThumbnailContentView.h */,
+				7E4B0BF415FFC72100C28904 /* KGPagedDocThumbnailContentView.m */,
+				7E4B0BF515FFC72100C28904 /* KGPagedDocThumbnailControl.h */,
+				7E4B0BF615FFC72100C28904 /* KGPagedDocThumbnailControl.m */,
+				7E4B0BF715FFC72100C28904 /* KGPagedDocThumbnailControlImplementation.h */,
+				7E4B0BF815FFC72100C28904 /* KGPagedDocThumbnailControlImplementation.m */,
+				7E4B0BF915FFC72100C28904 /* KGSinglePanePartitioning.h */,
+				7E4B0BFA15FFC72100C28904 /* KGSinglePanePartitioning.m */,
+				7E4B0BFB15FFC72100C28904 /* KGStartupView.h */,
+				7E4B0BFC15FFC72100C28904 /* KGStartupView.m */,
+				7E4B0BFD15FFC72100C28904 /* Pugpig.h */,
+				7E4B0BFE15FFC72100C28904 /* UIView+KGAnimatedHide.h */,
+				7E4B0BFF15FFC72100C28904 /* UIView+KGAnimatedHide.m */,
+				7E4B0C0015FFC72100C28904 /* UIWebView+KGAdditions.h */,
+				7E4B0C0115FFC72100C28904 /* UIWebView+KGAdditions.m */,
+			);
+			name = Pugpig;
+			sourceTree = "<group>";
+		};
+		7E4B0B6915FFC48700C28904 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7E4B0B6A15FFC48D00C28904 /* Controllers */,
+				7E4B0B6D15FFC4A800C28904 /* Views */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		7E4B0B6A15FFC48D00C28904 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7E4B0B6B15FFC49300C28904 /* Business */,
+				7E4B0B6C15FFC49900C28904 /* View */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7E4B0B6B15FFC49300C28904 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				7E4B0C1915FFC84E00C28904 /* MasterControl.h */,
+				7E4B0C1A15FFC84E00C28904 /* MasterControl.m */,
+			);
+			name = Business;
+			sourceTree = "<group>";
+		};
+		7E4B0B6C15FFC49900C28904 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E4B0C1715FFC81800C28904 /* Protocols */,
+				7EFDFBED1601286700364E27 /* SampleMagazineViewController.h */,
+				7EFDFBEE1601286700364E27 /* SampleMagazineViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7E4B0B6D15FFC4A800C28904 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7EFDFBEB1601286700364E27 /* SampleMagazineView-iPad.xib */,
+				7EFDFBEC1601286700364E27 /* SampleMagazineView-iPhone.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7E4B0C1715FFC81800C28904 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7E4B0C1815FFC83000C28904 /* IMagazineController.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E4B0B1415FFC3E300C28904 /* SampleMagazine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E4B0B2D15FFC3E300C28904 /* Build configuration list for PBXNativeTarget "SampleMagazine" */;
+			buildPhases = (
+				7E4B0B1115FFC3E300C28904 /* Sources */,
+				7E4B0B1215FFC3E300C28904 /* Frameworks */,
+				7E4B0B1315FFC3E300C28904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleMagazine;
+			productName = SampleMagazine;
+			productReference = 7E4B0B1515FFC3E300C28904 /* SampleMagazine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E4B0B0C15FFC3E300C28904 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "David Diaz";
+			};
+			buildConfigurationList = 7E4B0B0F15FFC3E300C28904 /* Build configuration list for PBXProject "SampleMagazine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7E4B0B0A15FFC3E300C28904;
+			productRefGroup = 7E4B0B1615FFC3E300C28904 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E4B0B1415FFC3E300C28904 /* SampleMagazine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E4B0B1315FFC3E300C28904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4B0B2415FFC3E300C28904 /* InfoPlist.strings in Resources */,
+				7E4B0C0215FFC72100C28904 /* BackButton.png in Resources */,
+				7EFDFBEF1601286700364E27 /* SampleMagazineView-iPad.xib in Resources */,
+				7EFDFBF01601286700364E27 /* SampleMagazineView-iPhone.xib in Resources */,
+				7EFDFC22160129FA00364E27 /* Data in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E4B0B1115FFC3E300C28904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4B0B2615FFC3E300C28904 /* main.m in Sources */,
+				7E4B0B2A15FFC3E300C28904 /* AppDelegate.m in Sources */,
+				7E4B0C0415FFC72100C28904 /* KGBrowserViewController.m in Sources */,
+				7E4B0C0515FFC72100C28904 /* KGCappedScrollView.m in Sources */,
+				7E4B0C0615FFC72100C28904 /* KGDiskImageStore.m in Sources */,
+				7E4B0C0715FFC72100C28904 /* KGHTMLManifest.m in Sources */,
+				7E4B0C0815FFC72100C28904 /* KGHTMLManifestDataSource.m in Sources */,
+				7E4B0C0915FFC72100C28904 /* KGInMemoryImageStore.m in Sources */,
+				7E4B0C0A15FFC72100C28904 /* KGLocalFileDataSource.m in Sources */,
+				7E4B0C0B15FFC72100C28904 /* KGPagedDocControl.m in Sources */,
+				7E4B0C0C15FFC72100C28904 /* KGPagedDocControlImplementation.m in Sources */,
+				7E4B0C0D15FFC72100C28904 /* KGPagedDocThumbnailContentView.m in Sources */,
+				7E4B0C0E15FFC72100C28904 /* KGPagedDocThumbnailControl.m in Sources */,
+				7E4B0C0F15FFC72100C28904 /* KGPagedDocThumbnailControlImplementation.m in Sources */,
+				7E4B0C1015FFC72100C28904 /* KGSinglePanePartitioning.m in Sources */,
+				7E4B0C1115FFC72100C28904 /* KGStartupView.m in Sources */,
+				7E4B0C1215FFC72100C28904 /* UIView+KGAnimatedHide.m in Sources */,
+				7E4B0C1315FFC72100C28904 /* UIWebView+KGAdditions.m in Sources */,
+				7E4B0C1B15FFC84E00C28904 /* MasterControl.m in Sources */,
+				7EFDFBF11601286700364E27 /* SampleMagazineViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7E4B0B2215FFC3E300C28904 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E4B0B2315FFC3E300C28904 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E4B0B2B15FFC3E300C28904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E4B0B2C15FFC3E300C28904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E4B0B2E15FFC3E300C28904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleMagazine/SampleMagazine-Prefix.pch";
+				INFOPLIST_FILE = "SampleMagazine/SampleMagazine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7E4B0B2F15FFC3E300C28904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleMagazine/SampleMagazine-Prefix.pch";
+				INFOPLIST_FILE = "SampleMagazine/SampleMagazine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E4B0B0F15FFC3E300C28904 /* Build configuration list for PBXProject "SampleMagazine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4B0B2B15FFC3E300C28904 /* Debug */,
+				7E4B0B2C15FFC3E300C28904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E4B0B2D15FFC3E300C28904 /* Build configuration list for PBXNativeTarget "SampleMagazine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4B0B2E15FFC3E300C28904 /* Debug */,
+				7E4B0B2F15FFC3E300C28904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E4B0B0C15FFC3E300C28904 /* Project object */;
+}

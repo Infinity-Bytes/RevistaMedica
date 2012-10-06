@@ -1,0 +1,191 @@
+body{
+    background: url('images/dark_geometric.png') !important;
+}
+
+.photo-container {
+	width: 1024px;
+	height: 768px;
+	position: relative;
+	overflow: hidden;
+
+}
+.cover{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.logoContainer{
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px 10px 0 0;
+    bottom: 0;
+    padding: 15px;
+    position: absolute;
+
+}
+
+.logoImage{
+    position: relative;
+    width: 100%;
+}
+
+.photo-container #room {
+	width: 1024px;
+	height: 768px;
+}
+
+.menuLink-container img{
+	width: 100px;
+	height: 100px;
+}
+
+.image-container img {
+	width: 100px;
+	height: 100px;
+   	cursor: move;
+   	position: relative;
+}
+.image-container {
+	position: absolute;
+	padding: 10px;
+}
+
+.close-button {
+    background: none repeat scroll 0 0 rgb(255, 255, 255);
+    border:1px solid rgb(68, 68, 68);
+    border-radius: 20px 20px 20px 20px;
+    color: rgb(85, 85, 85);
+    cursor: pointer;
+    font-family: helvetica;
+    font-size: 1em;
+    height: 1.5em;
+    line-height: 1.7em;
+    position: absolute;
+    right: -20px;
+    text-align: center;
+    top: -20px;
+    vertical-align: middle;
+    width: 1.6em;
+}
+
+
+.menu-button{
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    font-size: 1em;
+    margin-left: 130px;
+    padding: 15px 10px;
+    position: absolute;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3);
+    top: 5px;
+    z-index: 9999;
+
+}
+
+.backLoading{
+	position: absolute;
+	left: 50%;
+    top: 40%;
+}
+
+@media screen and (max-width: 768px){
+	.photo-section{
+	    border: 1px solid rgba(0, 0, 0, 0.3);
+	    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+	    height: 1000px;
+	    margin: 0 auto;
+	    overflow: hidden;
+	    width: 100%;
+        right: 0;
+	}
+    .photo-container{
+       width:768px;
+       height: 1024px;
+       position: relative;
+       overflow: hidden;
+    }
+    .background-image{
+        height: 100%;
+    }
+
+}
+@media screen and (min-width: 1024px){
+	.photo-section{
+	    border: 1px solid rgba(0, 0, 0, 0.3);
+	    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+	    height: 760px;
+	    margin: 0 auto;
+	    overflow: hidden;
+	    width: 100%;
+	    position: relative;
+	}
+
+    .background-image{
+        width: 100%;
+    }
+
+
+    .logoContainer{
+    bottom: -480px;
+    margin: 0 auto;
+    position: relative;
+    width: 900px;
+    }
+
+}
+
+
+.menu-container{
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 0 2px rgba(0, 0, 0, 0.5);
+    height: 600px;
+    position: absolute;
+    width: 130px;
+    z-index: 20;
+}
+.menuLink-container{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.takePhoto-button{
+    background: url("../Styles/images/camButton.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 70px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 62px;
+    z-index: 2000;
+}
+
+.takePicture-button{
+    background: url("../Styles/images/camButton2.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: block;
+    height: 112px;
+    margin: 10px auto;
+    right: 5px;
+    width: 112px;
+}
+.instrictions-span{
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0 5px 5px 0;
+    bottom: 5%;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    font-size: 1em;
+    left: 0;
+    padding: 10px 20px 10px 30px;
+    position: absolute;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3);
+    z-index: 9999;
+}

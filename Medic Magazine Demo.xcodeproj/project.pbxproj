@@ -600,12 +600,14 @@
 		7E4B0B2E15FFC3E300C28904 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: JESUS CAGIDE ALVARADO (WSU594GJC4)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SampleMagazine/SampleMagazine-Prefix.pch";
 				INFOPLIST_FILE = "SampleMagazine/SampleMagazine-Info.plist";
 				PRODUCT_NAME = "Medic Magazine Demo";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7A0DDA66-E4DD-400F-AE34-106F37F1CCF5";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -613,12 +615,14 @@
 		7E4B0B2F15FFC3E300C28904 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: JESUS CAGIDE ALVARADO (WSU594GJC4)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SampleMagazine/SampleMagazine-Prefix.pch";
 				INFOPLIST_FILE = "SampleMagazine/SampleMagazine-Info.plist";
 				PRODUCT_NAME = "Medic Magazine Demo";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7A0DDA66-E4DD-400F-AE34-106F37F1CCF5";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

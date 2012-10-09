@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7E4B0B1415FFC3E300C28904"
-               BuildableName = "SampleMagazine.app"
+               BuildableName = "Medic Magazine Demo.app"
                BlueprintName = "SampleMagazine"
                ReferencedContainer = "container:Medic Magazine Demo.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7E4B0B1415FFC3E300C28904"
-            BuildableName = "SampleMagazine.app"
+            BuildableName = "Medic Magazine Demo.app"
             BlueprintName = "SampleMagazine"
             ReferencedContainer = "container:Medic Magazine Demo.xcodeproj">
          </BuildableReference>
@@ -52,7 +52,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7E4B0B1415FFC3E300C28904"
-            BuildableName = "SampleMagazine.app"
+            BuildableName = "Medic Magazine Demo.app"
             BlueprintName = "SampleMagazine"
             ReferencedContainer = "container:Medic Magazine Demo.xcodeproj">
          </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7E4B0B1415FFC3E300C28904"
-            BuildableName = "SampleMagazine.app"
+            BuildableName = "Medic Magazine Demo.app"
             BlueprintName = "SampleMagazine"
             ReferencedContainer = "container:Medic Magazine Demo.xcodeproj">
          </BuildableReference>

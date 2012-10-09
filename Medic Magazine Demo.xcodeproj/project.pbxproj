@@ -44,6 +44,14 @@
 		7EFDFBF11601286700364E27 /* SampleMagazineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFDFBEE1601286700364E27 /* SampleMagazineViewController.m */; };
 		7EFDFC22160129FA00364E27 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 7EFDFC21160129FA00364E27 /* Data */; };
 		F1110FBF1620E5C900B1D4A7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1110FBE1620E5C900B1D4A7 /* Default-568h@2x.png */; };
+		F194B0D216210C8000E2AF25 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F194B0D116210C8000E2AF25 /* Default-Portrait@2x~ipad.png */; };
+		F194B0D516210C8200E2AF25 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F194B0D416210C8200E2AF25 /* Default-Portrait~ipad.png */; };
+		F194B0D716210C8500E2AF25 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F194B0D616210C8500E2AF25 /* Default-Landscape~ipad.png */; };
+		F194B0D916210C8600E2AF25 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F194B0D816210C8600E2AF25 /* Default-Landscape@2x~ipad.png */; };
+		F194B0DB16210CA200E2AF25 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = F194B0DA16210CA200E2AF25 /* Icon-72.png */; };
+		F194B0DD16210CA500E2AF25 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F194B0DC16210CA500E2AF25 /* Icon-72@2x.png */; };
+		F194B0DF16210CBB00E2AF25 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F194B0DE16210CBB00E2AF25 /* Icon.png */; };
+		F194B0E116210CBD00E2AF25 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F194B0E016210CBD00E2AF25 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -154,6 +162,14 @@
 		7EFDFBEE1601286700364E27 /* SampleMagazineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleMagazineViewController.m; sourceTree = "<group>"; };
 		7EFDFC21160129FA00364E27 /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
 		F1110FBE1620E5C900B1D4A7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F194B0D116210C8000E2AF25 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		F194B0D416210C8200E2AF25 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		F194B0D616210C8500E2AF25 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		F194B0D816210C8600E2AF25 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		F194B0DA16210CA200E2AF25 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		F194B0DC16210CA500E2AF25 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		F194B0DE16210CBB00E2AF25 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F194B0E016210CBD00E2AF25 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +217,14 @@
 		7E4B0B0A15FFC3E300C28904 = {
 			isa = PBXGroup;
 			children = (
+				F194B0E016210CBD00E2AF25 /* Icon@2x.png */,
+				F194B0DE16210CBB00E2AF25 /* Icon.png */,
+				F194B0DC16210CA500E2AF25 /* Icon-72@2x.png */,
+				F194B0DA16210CA200E2AF25 /* Icon-72.png */,
+				F194B0D816210C8600E2AF25 /* Default-Landscape@2x~ipad.png */,
+				F194B0D616210C8500E2AF25 /* Default-Landscape~ipad.png */,
+				F194B0D416210C8200E2AF25 /* Default-Portrait~ipad.png */,
+				F194B0D116210C8000E2AF25 /* Default-Portrait@2x~ipad.png */,
 				F1110FBE1620E5C900B1D4A7 /* Default-568h@2x.png */,
 				7EFDFC21160129FA00364E27 /* Data */,
 				7E4B0B1F15FFC3E300C28904 /* SampleMagazine */,
@@ -498,6 +522,14 @@
 				7E39224D16129A5C006A1BCD /* musicOff.png in Resources */,
 				7E39224E16129A5C006A1BCD /* musicOn.png in Resources */,
 				F1110FBF1620E5C900B1D4A7 /* Default-568h@2x.png in Resources */,
+				F194B0D216210C8000E2AF25 /* Default-Portrait@2x~ipad.png in Resources */,
+				F194B0D516210C8200E2AF25 /* Default-Portrait~ipad.png in Resources */,
+				F194B0D716210C8500E2AF25 /* Default-Landscape~ipad.png in Resources */,
+				F194B0D916210C8600E2AF25 /* Default-Landscape@2x~ipad.png in Resources */,
+				F194B0DB16210CA200E2AF25 /* Icon-72.png in Resources */,
+				F194B0DD16210CA500E2AF25 /* Icon-72@2x.png in Resources */,
+				F194B0DF16210CBB00E2AF25 /* Icon.png in Resources */,
+				F194B0E116210CBD00E2AF25 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -600,12 +632,15 @@
 		7E4B0B2E15FFC3E300C28904 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: JESUS CAGIDE ALVARADO (WSU594GJC4)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SampleMagazine/SampleMagazine-Prefix.pch";
 				INFOPLIST_FILE = "SampleMagazine/SampleMagazine-Info.plist";
 				PRODUCT_NAME = "Medic Magazine Demo";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7A0DDA66-E4DD-400F-AE34-106F37F1CCF5";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -613,12 +648,15 @@
 		7E4B0B2F15FFC3E300C28904 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: JESUS CAGIDE ALVARADO (WSU594GJC4)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SampleMagazine/SampleMagazine-Prefix.pch";
 				INFOPLIST_FILE = "SampleMagazine/SampleMagazine-Info.plist";
 				PRODUCT_NAME = "Medic Magazine Demo";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7A0DDA66-E4DD-400F-AE34-106F37F1CCF5";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
